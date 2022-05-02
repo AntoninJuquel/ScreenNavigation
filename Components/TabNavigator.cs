@@ -2,7 +2,7 @@ using ScreenNavigation.Class;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace ScreenNavigation
+namespace ScreenNavigation.Components
 {
     public class TabNavigator : MonoBehaviour
     {

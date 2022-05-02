@@ -1,4 +1,6 @@
-﻿namespace ScreenNavigation.Class
+﻿using ScreenNavigation.Components;
+
+namespace ScreenNavigation.Class
 {
     [System.Serializable]
     public class StackScreen

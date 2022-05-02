@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using ScreenNavigation.Class;
 using UnityEngine;
 
-namespace ScreenNavigation
+namespace ScreenNavigation.Components
 {
     public class StackNavigator : MonoBehaviour
     {

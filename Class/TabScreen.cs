@@ -1,4 +1,5 @@
-﻿using UnityEngine.UI;
+﻿using ScreenNavigation.Components;
+using UnityEngine.UI;
 
 namespace ScreenNavigation.Class
 {

@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using ScreenNavigation.Class;
 using UnityEngine;
 
 namespace ScreenNavigation
@@ -24,6 +25,7 @@ namespace ScreenNavigation
             foreach (var stackScreen in stackNavigator)
             {
                 _nameScreens.Add(stackScreen.name, stackScreen.screen);
+                stackScreen.screen.Hide();
             }
         }
 
@@ -78,12 +80,5 @@ namespace ScreenNavigation
             debugStack = _stackNavigator.ToArray();
 #endif
         }
-    }
-
-    [System.Serializable]
-    public class StackScreen
-    {
-        public string name;
-        public Screen screen;
     }
 }

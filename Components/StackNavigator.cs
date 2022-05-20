@@ -19,6 +19,11 @@ namespace ScreenNavigation.Components
             RegisterAllScreen();
         }
 
+        private void Start()
+        {
+            Navigate(stackNavigator[0].screen);
+        }
+
         private void RegisterAllScreen()
         {
             _nameScreens = new Dictionary<string, Screen>();
